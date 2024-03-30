@@ -1,0 +1,19 @@
+{
+    "name": "monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "backend": "pnpm --filter @monorepo/backend",
+        "frontend": "pnpm --filter @monorepo/frontend"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^20.12.2",
+        "typescript": "^5.4.3",
+        "vite-node": "^1.4.0"
+    }
+}
