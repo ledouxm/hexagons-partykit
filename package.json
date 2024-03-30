@@ -10,10 +10,14 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {},
     "devDependencies": {
         "@types/node": "^20.12.2",
         "typescript": "^5.4.3",
         "vite-node": "^1.4.0"
+    },
+    "pnpm": {
+        "patchedDependencies": {
+            "ecctrl@1.0.72": "patches/ecctrl@1.0.72.patch"
+        }
     }
 }
